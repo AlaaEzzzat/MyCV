@@ -23,10 +23,10 @@ $(window).ready(function () {
     $(".navbar-item .nav-link").click(function (event) {
         event.preventDefault();
         $("html, body").animate({
-            scrollTop: $("#" + $(this).data("scroll")).offset().top
+            scrollTop: $("#" + $(this).data("scroll")).offset().top + 10
         }, 1000);
         $(".navbar-nav .navbar-item").removeClass("active");
-        $(this).parent().addClass("active");
+        $(this).addClass("active");
 
     });
     //sycn links 
