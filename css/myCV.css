@@ -292,14 +292,16 @@ mh-home .hero-img {
 }
 
 .header-con h2 {
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
     text-transform: uppercase;
     z-index: 0;
     padding-top: 20px;
     padding-left: 20px
 }
-
+.parg-head{
+    font-family: inherit;
+}
 .intro p,
 .information .info ul {
     font-size: 19px;
